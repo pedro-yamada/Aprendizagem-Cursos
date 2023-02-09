@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-08-30T17:41:08.063303",
+    "startedAt": "2022-08-30T17:41:07.209399",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\Pepe\\Projetos Python\\45ea8eeca14ac858128a4fd10892e3d1-aa45dfd9dfaf51942dde793fbe75c61896f7bc41\\test-gpu-wandb.py",
+    "codePath": "test-gpu-wandb.py",
+    "host": "DESKTOP-H6KS289",
+    "username": "Pepe",
+    "executable": "C:\\Users\\Pepe\\anaconda3\\envs\\tf2\\python.exe"
+}

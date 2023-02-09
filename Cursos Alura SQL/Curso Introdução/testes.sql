@@ -1,0 +1,6 @@
+SELECT * FROM tbproduto;
+
+ALTER TABLE tbproduto ADD COLUMN GOSTO BIT(1);
+
+UPDATE tbproduto SET GOSTO = 1
+WHERE NOME LIKE '%Limão%';

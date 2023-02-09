@@ -1,0 +1,37 @@
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+WARNING:tensorflow:From C:\Users\Pepe\anaconda3\envs\tf2\lib\site-packages\tensorflow\python\ops\nn_ops.py:5214: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+Epoch 1/10
+
+
+
+
+
+1874/1875 [============================>.] - ETA: 0s - loss: 0.1697 - acc: 0.9499
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.1696 - acc: 0.9499 - val_loss: 0.0652 - val_acc: 0.9783
+Epoch 2/10
+
+
+1869/1875 [============================>.] - ETA: 0s - loss: 0.0597 - acc: 0.9816
+1875/1875 [==============================] - 12s 7ms/step - loss: 0.0596 - acc: 0.9816 - val_loss: 0.0447 - val_acc: 0.9851
+Epoch 3/10
+
+
+1873/1875 [============================>.] - ETA: 0s - loss: 0.0399 - acc: 0.9873
+
+wandb: Adding directory to artifact (C:\Users\Pepe\Projetos Python\45ea8eeca14ac858128a4fd10892e3d1-aa45dfd9dfaf51942dde793fbe75c61896f7bc41\wandb\run-20220830_144107-27va5sq1\files\model-best)... Done. 0.1s
+1875/1875 [==============================] - 13s 7ms/step - loss: 0.0399 - acc: 0.9873 - val_loss: 0.0419 - val_acc: 0.9856
+Epoch 4/10
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.0302 - acc: 0.9907 - val_loss: 0.0364 - val_acc: 0.9877
+Epoch 5/10
+
+
+1875/1875 [==============================] - 11s 6ms/step - loss: 0.0232 - acc: 0.9926 - val_loss: 0.0400 - val_acc: 0.9862
+Epoch 6/10
+
+
+
+
+1875/1875 [==============================] - 10s 5ms/step - loss: 0.0184 - acc: 0.9941 - val_loss: 0.0407 - val_acc: 0.9868
+313/313 [==============================] - 1s 2ms/step - loss: 0.0407 - acc: 0.9868
